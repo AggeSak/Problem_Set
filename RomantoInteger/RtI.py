@@ -3,6 +3,7 @@ class Solution:
         n = len(s)
         total = 0
         
+        
         for i in range(n):
             if i < n - 1 and s[i] == 'I' and (s[i + 1] == 'V' or s[i + 1] == 'X'):
                 total -= 1
